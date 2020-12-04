@@ -1,6 +1,6 @@
 /**
- iZ³ | Izzzio blockchain - https://izzz.io
- Candy - https://github.com/Izzzio/Candy
+ NedNetwork | NedNetwork blockchain - https://izzz.io
+ Candy - https://github.com/NedNetwork/Candy
  @author: Andrey Nedobylsky (admin@twister-vl.ru)
  */
 
@@ -12,7 +12,7 @@ let type = 'CandyData';
 
 /**
  * Candy data block
- * Candy - part of Izzzio blockchain. https://github.com/Izzzio/Candy
+ * Candy - part of NedNetwork blockchain. https://github.com/NedNetwork/Candy
  * @type {Signable}
  */
 class CandyData extends Signable {

@@ -1,3 +1,3 @@
 # iz3-basic-crypto
-IZZZIO blockchain internal cryptography
+NedNetwork blockchain internal cryptography
 

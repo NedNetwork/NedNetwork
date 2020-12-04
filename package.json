@@ -1,12 +1,12 @@
 {
-  "name": "iz3node",
-  "version": "1.1.510",
-  "description": "iZ³ - IZZZIO - fully customizable blockchain platform",
+  "name": "nednetork",
+  "version": "0.0.1",
+  "description": "NedNetwork blockchain",
   "main": "main.js",
-  "homepage": "https://izzz.io",
+  "homepage": "https://github.com/NedNetwork",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Izzzio/izzzio.git"
+    "url": "https://github.com/NedNetwork/NedNetwork.git"
   },
   "scripts": {
     "depency": "npm install",
@@ -43,24 +43,23 @@
     "node": ">=12.0.0"
   },
   "bugs": {
-    "url": "https://github.com/Izzzio/iz3node/issues",
-    "email": "info@izzz.io"
+    "url": "https://github.com/NedNetwork/NedNetwork/issues",
+    "email": "admin@twister-vl.ru"
   },
   "author": "Andrey Nedobyslky <admin@twister-vl.ru> (https://github.com/lailune)",
   "license": "Apache-2.0",
   "keywords": [
     "blockchain",
-    "izzz",
-    "izzzio",
+    "ned",
+    "nednetwork",
     "p2p",
     "peer2peer",
     "dlt",
     "node",
-    "bignet",
-    "iz3"
+    "ledger",
+    "network"
   ],
   "bin": {
-    "iz3node": "./main.js",
-    "izzzio": "./main.js"
+    "nednetwork": "./main.js"
   }
 }

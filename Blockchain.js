@@ -1,5 +1,5 @@
 /**
- iZ³ | Izzzio blockchain - https://izzz.io
+ NedNetwork | NedNetwork blockchain - https://izzz.io
  @author: Andrey Nedobylsky (admin@twister-vl.ru)
  */
 
@@ -2058,11 +2058,11 @@ function Blockchain(config) {
     function checkPluginEnginesVersion(path, isPathFull) {
         try {
             let compareVersions = new CompareVersions(isPathFull);
-            let izzzioMinVersionNeed = compareVersions.readIzzzioMinVersionNeeded(path);
-            if(!izzzioMinVersionNeed) {
+            let NedNetworkMinVersionNeed = compareVersions.readNedNetworkMinVersionNeeded(path);
+            if(!NedNetworkMinVersionNeed) {
             } else {
-                if(!compareVersions.isMinimumVersionMatch(izzzioMinVersionNeed, config.program.version())) {
-                    return 'need min version node: ' + izzzioMinVersionNeed + ' for plugin ' + path;
+                if(!compareVersions.isMinimumVersionMatch(NedNetworkMinVersionNeed, config.program.version())) {
+                    return 'need min version node: ' + NedNetworkMinVersionNeed + ' for plugin ' + path;
                 }
             }
         } catch (e) {

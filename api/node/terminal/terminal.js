@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- iZ³ | Izzzio blockchain - https://izzz.io
+ NedNetwork | NedNetwork blockchain - https://izzz.io
  @author: Andrey Nedobylsky (admin@twister-vl.ru)
 
  Copyright 2018 Izio LLC (OOO "Изио")
@@ -25,7 +25,7 @@ const fs = require('fs');
 let program = require('commander');
 
 program
-    .description(" iZ3 - IZZZIO REPL terminal\nUsage: terminal http://localhost:3000 Password")
+    .description(" iZ3 - NedNetwork REPL terminal\nUsage: terminal http://localhost:3000 Password")
     .option('--experimental-repl-await', '',)
     .parse(process.argv);
 

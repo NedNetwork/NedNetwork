@@ -11,14 +11,14 @@ class CompareVersions {
     constructor(isPathFull) {
         this.prePath = isPathFull ? '' : __dirname;
         this.keys = {
-            izzzio: ['engines', 'izzzio'],
+            NedNetwork: ['engines', 'NedNetwork'],
         };
     }
 
-    readIzzzioMinVersionNeeded(path) {
+    readNedNetworkMinVersionNeeded(path) {
         let pluginInfo = require(this.prePath + path + '/package.json');
 
-        return ((pluginInfo || {})[this.keys.izzzio[0]] || {})[this.keys.izzzio[1]];
+        return ((pluginInfo || {})[this.keys.NedNetwork[0]] || {})[this.keys.NedNetwork[1]];
     }
 
     isMinimumVersionMatch(minVersionNeeded, currVersion) {

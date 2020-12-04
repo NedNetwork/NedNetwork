@@ -1,11 +1,11 @@
 {
   "name": "iz3-nodejs-api",
   "version": "1.1.508",
-  "description": "Node.js API for IZZZIO blockchain",
+  "description": "Node.js API for NedNetwork blockchain",
   "main": "EcmaSmartRPC.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Izzzio/izzzio.git"
+    "url": "https://github.com/NedNetwork/NedNetwork.git"
   },
   "scripts": {
     "depency": "npm install",
@@ -17,7 +17,7 @@
   },
   "keywords": [
     "blockchain",
-    "izzzio",
+    "NedNetwork",
     "izzz",
     "iz3",
     "bignet",
@@ -29,7 +29,7 @@
   "author": "Kirill Revenkov",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Izzzio/izzzio/issues"
+    "url": "https://github.com/NedNetwork/NedNetwork/issues"
   },
   "homepage": "https://izzz.io",
   "bin": {

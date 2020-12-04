@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- iZ³ | Izzzio blockchain - https://izzz.io
+ NedNetwork | NedNetwork blockchain - https://izzz.io
  @author: Andrey Nedobylsky (admin@twister-vl.ru)
 
  Copyright 2018 Izio LLC (OOO "Изио")
@@ -28,7 +28,7 @@ let program = require('commander');
 
 program
     .version(version)
-    .description(' iZ3 - IZZZIO blockchain core.')
+    .description(' iZ3 - NedNetwork blockchain core.')
     .option('-a, --autofix', 'Fix saved chain if possible. WARNING: You can lose important data')
     .option('--clear', 'Clear all saved chain and deletes wallet. WARNING: You can lose important data')
     .option('--clear-db', 'Clear all saved chain and calculated wallets.')

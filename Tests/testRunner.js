@@ -1,5 +1,5 @@
 /**
- iZ³ | Izzzio blockchain - https://izzz.io
+ NedNetwork | NedNetwork blockchain - https://izzz.io
 
  Copyright 2018 Izio LLC (OOO "Изио")
 
@@ -17,7 +17,7 @@
  */
 
 /**
- * IZZZIO Test Runner
+ * NedNetwork Test Runner
  */
 
 const TEST_DIRS = [

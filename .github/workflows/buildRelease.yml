@@ -17,21 +17,21 @@ jobs:
       - name: NPM install
         shell: bash
         run: |
-          cd /home/runner/work/izzzio/izzzio
+          cd /home/runner/work/nednetwork/nednetwork
           npm install
 
       - name: Create ZIP distro for Linux
         shell: bash
         run: |
-          cp $(which node) /home/runner/work/izzzio/izzzio/.
-          cd /home/runner/work/izzzio/
-          zip -r iz3node-linux-x64.zip izzzio/*
+          cp $(which node) /home/runner/work/nednetwork/nednetwork/.
+          cd /home/runner/work/nednetwork/
+          zip -r nednetwork-linux-x64.zip nednetwork/*
 
       - name: Upload Linux distro
         uses: actions/upload-artifact@v1
         with:
-          name: iz3node-linux-x64.zip
-          path: /home/runner/work/izzzio/iz3node-linux-x64.zip
+          name: nednetwork-linux-x64.zip
+          path: /home/runner/work/nednetwork/nednetwork-linux-x64.zip
           
   Get-Windows-Node-Files:
     runs-on: windows-latest
@@ -44,7 +44,7 @@ jobs:
 
       - name: NPM install
         shell: cmd
-        run: npm install "d:\a\izzzio\izzzio"
+        run: npm install "d:\a\nednetwork\nednetwork"
           
       - name: Upload Windows Node exe
         uses: actions/upload-artifact@v1
@@ -77,7 +77,7 @@ jobs:
       - name: Extract files
         shell: bash
         run: |
-          WORK_DIR=/home/runner/work/izzzio/izzzio
+          WORK_DIR=/home/runner/work/nednetwork/nednetwork
           mkdir $WORK_DIR/node_modules
           mv $WORK_DIR/win-node-modules/* $WORK_DIR/node_modules/
           mv $WORK_DIR/win-node-exe/* $WORK_DIR/.
@@ -87,14 +87,14 @@ jobs:
       - name: Create ZIP distro for Windows
         shell: bash
         run: |
-          cd /home/runner/work/izzzio/
-          zip -r iz3node-windows-x64.zip izzzio/*
+          cd /home/runner/work/nednetwork/
+          zip -r nednetwork-windows-x64.zip nednetwork/*
 
       - name: Upload Windows distro
         uses: actions/upload-artifact@v1
         with: 
-          name: iz3node-windows-x64.zip
-          path: /home/runner/work/izzzio/iz3node-windows-x64.zip
+          name: nednetwork-windows-x64.zip
+          path: /home/runner/work/nednetwork/nednetwork-windows-x64.zip
 
   Publish-Binaries:
     needs: [Build-Windows-Distro, Linux-Distro]
@@ -103,16 +103,16 @@ jobs:
       - name: Download Windows distro
         uses: actions/download-artifact@v1
         with: 
-          name: iz3node-windows-x64.zip
+          name: nednetwork-windows-x64.zip
 
       - name: Download Linux distro
         uses: actions/download-artifact@v1
         with:
-          name: iz3node-linux-x64.zip
+          name: nednetwork-linux-x64.zip
 
       - name: Publish binaries
         uses: Roang-zero1/github-upload-release-artifacts-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          args: 'iz3node-windows-x64.zip iz3node-linux-x64.zip'
+          args: 'nednetwork-windows-x64.zip nednetwork-linux-x64.zip'

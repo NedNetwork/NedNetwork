@@ -1,6 +1,6 @@
 # iz3-nodejs-api
 
-IZZZIO blockchain platform Node.js API bindings and CLI RPC terminal.
+NedNetwork blockchain platform Node.js API bindings and CLI RPC terminal.
 
 ## Terminal
 You can install this package globally by using
@@ -42,4 +42,4 @@ Now you can use some API methods like:
 See [demo](demo/) for more information.
 
 
-API description you can found in [Wiki](https://github.com/Izzzio/izzzio/wiki/Node.js-API)
+API description you can found in [Wiki](https://github.com/NedNetwork/NedNetwork/wiki/Node.js-API)

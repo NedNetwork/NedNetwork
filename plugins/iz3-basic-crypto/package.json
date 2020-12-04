@@ -1,7 +1,7 @@
 {
   "name": "iz3-basic-crypto",
   "version": "1.0.0",
-  "description": "IZZZIO blockchain internal cryptography",
+  "description": "NedNetwork blockchain internal cryptography",
   "main": "index.js",
   "dependencies": {
     "crypto-js": "^3.1.6",
@@ -13,12 +13,12 @@
   "license": "GPL",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Izzzio/izzzio.git"
+    "url": "https://github.com/NedNetwork/NedNetwork.git"
   },
   "keywords": [
     "blockchain",
     "crypto",
-    "izzzio",
+    "NedNetwork",
     "izzz",
     "iz3",
     "bignet"

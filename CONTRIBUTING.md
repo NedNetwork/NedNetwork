@@ -6,13 +6,11 @@ Hi! Welcome to our project! In this distribution, we are creating our open sourc
 
 2. The technology should be simple enough so that everyone understands the basic principles of work and could use it without reading a ton of documentation.
 
-Our team began development in mid-2017 and is actively developing to this day. Now we have made the platform public/opensource and we invite everyone to join in the development of a universal and simple blockchain platform IZZZIO.
+Our team began development in mid-2017 and is actively developing to this day. Now we have made the platform public/opensource and we invite everyone to join in the development of a universal and simple blockchain platform NedNetwork.
 
 ## Communicaion
 
-Our DISCORD channel: [https://discord.gg/5EmW96a](https://discord.gg/5EmW96a)
-
-Official Telegram group: [https://t.me/izzzio](https://t.me/izzzio)
+Official Telegram group: [https://t.me/nednetwork](https://t.me/nednetwork)
 
 Welcome for any descussions and questions!
 
@@ -20,11 +18,11 @@ Do not forget. Creating something new always starts with communication. We welco
 
 ## How to contribute
 
-We recommend starting with a project WIKI [https://github.com/Izzzio/izzzio/wiki](https://github.com/Izzzio/izzzio/wiki).
+We recommend starting with a project WIKI [https://github.com/nednetwork/nednetwork/wiki](https://github.com/nednetwork/nednetwork/wiki).
 
-Also from the [README.md](https://github.com/Izzzio/izzzio/blob/master/README.MD) file.
+Also from the [README.md](https://github.com/nednetwork/nednetwork/blob/master/README.MD) file.
 
-You can start with both improving documentation or solving [issues](https://github.com/Izzzio/izzzio/issues).
+You can start with both improving documentation or solving [issues](https://github.com/nednetwork/nednetwork/issues).
 
 Tasks highlighted specifically for beginners are marked with the label "good first issue". There is several a difficulty marks for tasks:
 
@@ -37,7 +35,7 @@ Tasks above a simple level usually require additional technology knowledge.
 
 ## Submitting changes
 
-Please send a [GitHub Pull Request](https://github.com/izzzio/izzzio/pull/new/master) with a clear list of what you've done (read more about [pull requests](http://help.github.com/pull-requests/)). Please follow our coding conventions (below).
+Please send a [GitHub Pull Request](https://github.com/nednetwork/nednetwork/pull/new/master) with a clear list of what you've done (read more about [pull requests](http://help.github.com/pull-requests/)). Please follow our coding conventions (below).
 
 ## Coding conventions
 

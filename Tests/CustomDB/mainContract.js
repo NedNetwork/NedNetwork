@@ -1,8 +1,8 @@
 /**
  *
- * iZ³ | IZZZIO blockchain - https://izzz.io
+ * NedNetwork | NedNetwork blockchain - https://izzz.io
  *
- * iZ³ BigNet Master contract
+ * NedNetwork BigNet Master contract
  * Provides main token and platform functionality
  * Process payable transaction
  * Process resources rental
@@ -19,7 +19,7 @@ const EMISSION = 9999999999;
  * Token full name
  * @type {string}
  */
-const TOKEN_NAME = 'IZZZIO main token';
+const TOKEN_NAME = 'NedNetwork main token';
 
 /**
  * Token ticker
@@ -87,7 +87,7 @@ const FEE_ADDRESS = CONTRACT_OWNER;
 const MAX_CONTRACT_LENGTH = 10 * 1024 * 1024;
 
 /**
- * Main IZZZIO token contract
+ * Main NedNetwork token contract
  */
 class mainToken extends TokenContract {
 

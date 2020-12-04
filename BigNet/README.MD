@@ -1,1 +1,0 @@
-# iZ³ BigNet - public smart contract network

@@ -1,6 +1,6 @@
 <?php
 /**
- * iZ³ | Izzzio blockchain - https://izzz.io
+ * NedNetwork | NedNetwork blockchain - https://izzz.io
  * @author: Andrey Nedobylsky (admin@twister-vl.ru)
  */
 

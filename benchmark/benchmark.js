@@ -1,5 +1,5 @@
 /**
- iZ³ | Izzzio blockchain - https://izzz.io
+ NedNetwork | NedNetwork blockchain - https://izzz.io
  @author: Andrey Nedobylsky (admin@twister-vl.ru)
  EDUCERT - blockchain certificates checker
  */
@@ -52,7 +52,7 @@ class App extends DApp {
             });
         }
 
-        console.log('iZ³ Speed Benchmark loaded');
+        console.log('NedNetwork Speed Benchmark loaded');
         console.log();
         console.log('Benchmark configuration: ');
         console.log('TX per block: ' + TRANSACTIONS_PER_BLOCK);
@@ -89,7 +89,7 @@ class App extends DApp {
                 let blocksSec = (blocks / time) * 1000;
 
                 console.log('\x1Bc');
-                console.log('iZ³ Speed Benchmark');
+                console.log('NedNetwork Speed Benchmark');
                 console.log();
                 console.log('Benchmark: Perfomance: Generated blocks:  ' + blockCounter + ' Transactions: ' + (blockCounter * TRANSACTIONS_PER_BLOCK));
                 console.log('Benchmark: Perfomance: Blocks per second: ' + (blocksSec) + ' TX per second: ' + (blocksSec * TRANSACTIONS_PER_BLOCK));
