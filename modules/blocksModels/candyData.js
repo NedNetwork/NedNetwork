@@ -1,5 +1,5 @@
 /**
- NedNetwork | NedNetwork blockchain - https://izzz.io
+ NedNetwork | NedNetwork blockchain - https://NED_SITE
  Candy - https://github.com/NedNetwork/Candy
  @author: Andrey Nedobylsky (admin@twister-vl.ru)
  */

@@ -1,6 +1,6 @@
 /**
  *
- * NedNetwork | NedNetwork blockchain - https://izzz.io
+ * NedNetwork | NedNetwork blockchain - https://NED_SITE
  *
  * NedNetwork BigNet Master contract
  * Provides main token and platform functionality

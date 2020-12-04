@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
 /**
- NedNetwork | NedNetwork blockchain - https://izzz.io
+ NedNetwork | NedNetwork blockchain - https://NED_SITE
  @author: Andrey Nedobylsky (admin@twister-vl.ru)
 
- Copyright 2018 Izio LLC (OOO "Изио")
+ Copyright 2018 NedNetwork
 
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.

@@ -1,5 +1,5 @@
 /**
- NedNetwork | NedNetwork blockchain - https://izzz.io
+ NedNetwork | NedNetwork blockchain - https://NED_SITE
  @author: Andrey Nedobylsky (admin@twister-vl.ru)
  */
 
@@ -44,7 +44,7 @@ module.exports = function () {
     console.log('███████████          ██████████████████████████████████████████████');
     console.log('  ');
     console.log('');
-    console.log('iZ3 Blockchain platform - https://izzz.io');
+    console.log('iZ3 Blockchain platform - https://NED_SITE');
     console.log('');
     console.log('');
 };
